@@ -12,7 +12,6 @@ exports.handler = async function handler(event, context) {
    const { id } = product
    const { name, category, image, location } = product.fields
    const url = image[0].url
-   console.log(id, name, url, category, location)
    return { id, name, url, category, location }
   })
   return {
