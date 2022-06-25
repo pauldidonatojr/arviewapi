@@ -1,3 +1,4 @@
+// domain/.netlify/functions/airtable
 require('dotenv').config()
 const Airtable = require('airtable-node')
 
