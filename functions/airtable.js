@@ -20,7 +20,7 @@ exports.handler = async function handler(event, context) {
     'Access-Control-Allow-Origin': '*',
    },
    statusCode: 200,
-   body: JSON.stringify(JSON.parse(products), null, 2),
+   body: JSON.stringify(products),
   }
  } catch (error) {
   return {
