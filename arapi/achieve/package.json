@@ -1,0 +1,17 @@
+{
+  "name": "apifood2view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "netlify": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable-node": "^0.1.20",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
